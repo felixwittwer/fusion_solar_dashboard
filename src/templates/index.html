@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="index.css">
+<head>
+    <title>Fusion Solar Dashboard</title>
+    <!-- Uncomment the following line if auto reload is not needed. Currently it is set to update every 60 seconds. -->
+    <meta http-equiv="refresh" content="60">
+</head>
+
+<body>
+    <h1>SOLARANLAGE TURNHALLE</h1>
+    <h2>Gymnasium Dresden-Plauen</h2>
+    <div id="powermeters">
+        <div id="current_power">
+            <canvas id="current_power_canvas" width="550px" height="550px"></canvas>
+            <script src="scripts.js"></script>
+            <p class="value" id="cur_pow_num">{{current_power}} {{current_power_unit}}</p>
+            <p>Aktuelle Leistung</p>
+        </div>
+        <div id="today_power">
+            <canvas id="today_power_canvas" width="400px" height="400px"></canvas>
+            <script src="scripts.js"></script>
+            <p class="value">{{today_power}} {{today_power_unit}}</p>
+            <p>Heutiger Energieertrag</p>
+        </div>
+        <div id="month_power">
+            <canvas id="month_power_canvas" width="400px" height="400px"></canvas>
+            <script src="scripts.js"></script>
+            <p class="value">{{month_power}} {{month_power_unit}}</p>
+            <p>Monatlicher Energieertrag</p>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p id="last_refresh"> Letzte Aktualisierung: {{last_refresh}}</p>
+    <p id="copyright">© 2024 Felix Wittwer</p>
+    <img id="fw_logo" src="FW_Logo.png" alt="Logo Felix Wittwer"> 
+</footer>
+
+</html>
