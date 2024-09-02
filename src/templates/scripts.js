@@ -7,6 +7,7 @@
 // It's fine. This is a template file and the variables sourrounded with curly brackets will be replaced by the create_page.py script.
 
 // arcs start at 0.9 * Math.PI and end at 2.1 * Math.PI
+var accent_color = '#055d3d'
 
 // middle arc
 var startAngle = 0.9 * Math.PI;
@@ -37,7 +38,7 @@ ctx.beginPath();
 ctx.arc(x, y, radius, startAngle, endAngle, counterClockwise);
 ctx.lineWidth = 55;
 
-ctx.strokeStyle = '#055d3d';
+ctx.strokeStyle = accent_color;
 ctx.stroke();
 
 // left arc
@@ -69,7 +70,7 @@ ctx.beginPath();
 ctx.arc(x, y, radius, startAngle, endAngle, counterClockwise);
 ctx.lineWidth = 40;
 
-ctx.strokeStyle = '#055d3d';
+ctx.strokeStyle = accent_color;
 ctx.stroke();
 
 // right arc
@@ -101,5 +102,5 @@ ctx.beginPath();
 ctx.arc(x, y, radius, startAngle, endAngle, counterClockwise);
 ctx.lineWidth = 40;
 
-ctx.strokeStyle = '#055d3d';
+ctx.strokeStyle = accent_color;
 ctx.stroke();
