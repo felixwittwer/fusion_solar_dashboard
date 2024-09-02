@@ -1,7 +1,14 @@
+[![Static Badge](https://img.shields.io/badge/build for-Gymnasium_Dresden--Plauen-GDP?color=055d3d)](https://gdp.schule/)
+
 # fusion_solar_dashboard
 a webscraper that collects data from a fusion solar kiosk website and creates a custom dashboard with it.
 
-## Setup
+## Contact
+Felix Wittwer  
+**@felixwittwer** on GitHub
+
+[felix.wittwer.mail@gmail.com](mailto:felix.wittwer.mail@gmail.com)
+
 
 ### Drivers
 
