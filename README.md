@@ -1,5 +1,7 @@
 [![Static Badge](https://img.shields.io/badge/build_for-Gymnasium_Dresden--Plauen-GDP?color=055d3d)](https://gdp.schule/)
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 # fusion_solar_dashboard
 a webscraper that collects data from a fusion solar kiosk website and creates a custom dashboard with it.
 
