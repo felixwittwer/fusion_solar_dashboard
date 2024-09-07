@@ -12,6 +12,7 @@ Felix Wittwer
 
 [felix.wittwer.mail@gmail.com](mailto:felix.wittwer.mail@gmail.com)
 
+## Setup
 
 ### Drivers
 
@@ -97,7 +98,7 @@ Tick the first two boxes unter the advanced settings (GER: Erweiterte Einstellun
 
 </div>
 
-## Actually runnig the program
+## Actually running the program
 
 Note: The finished dashboard can be found in the ***/dashboard/*** folder along with a **JS** and **CSS** file which are mandatory for the dashboard to work!
 
